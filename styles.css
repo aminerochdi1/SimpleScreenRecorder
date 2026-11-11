@@ -1,0 +1,49 @@
+
+body
+{
+    gap: 0;
+    margin: 0;
+    padding: 0;
+   width: 100vw;
+   height: 100vh;
+   overflow: hidden;
+}
+
+.navbar
+{
+    height: 50px;
+    background: gray;
+    color: white;
+    width: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    font-size: 20px;
+    -webkit-app-region:drag;
+}
+
+.screen-recorder-icon
+{
+    width: 120px;
+    height: 120px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.screen-recorder-icon:hover
+{
+    transform: scale(1.1);
+}
+
+.container
+{
+    display: flex;
+     /* Center Horizonatly */
+    justify-content: center;
+    /* Center Vertically */
+    align-items: center; 
+    height: 100%;
+}

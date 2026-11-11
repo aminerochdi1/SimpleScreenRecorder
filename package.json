@@ -1,0 +1,19 @@
+{
+  "name": "electron",
+  "version": "1.0.0",
+  "description": "First Project ",
+  "license": "ISC",
+  "author": "mohammedaminerochdi",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon --ext js,css,html --exec electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "electron": "^45.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
